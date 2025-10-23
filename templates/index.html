@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<div class="app-container">
+    <h1>Smart To-Do App</h1>
+
+    <div class="add-task-form">
+        <form method="POST">
+            <input type="text" name="title" placeholder="Task Title" required>
+            <input type="datetime-local" name="deadline" required>
+            <select name="priority">
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+            </select>
+            <button type="submit">Add Task</button>
+        </form>
+    </div>
+
+    <div class="task-list">
+        {% for task in tasks %}
+        <div class="task-card {% if task.completed %}completed{% endif %}">
+            <div class="task-header">
+                <h3>{{ task.title }}</h3>
+                <span class="badge {{ task.priority|lower }}">{{ task.priority }}</span>
+            </div>
+                <p class="deadline">Deadline: {{ task.formatted_deadline }}</p>
+            <div class="task-actions">
+                <a href="{{ url_for('complete', index=loop.index0) }}" title="Mark Complete">✔</a>
+                <a href="{{ url_for('update', index=loop.index0) }}" title="Edit">✏</a>
+                <a href="{{ url_for('delete', index=loop.index0) }}" title="Delete">🗑</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

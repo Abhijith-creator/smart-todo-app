@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Learn Python",
+        "deadline": "2025-10-25 20:00",
+        "priority": "High",
+        "completed": true
+    },
+    {
+        "title": "Reading books",
+        "deadline": "2025-10-22T19:28",
+        "priority": "Medium",
+        "completed": true
+    },
+    {
+        "title": "Drink Water",
+        "deadline": "2025-10-22T19:40",
+        "priority": "Low",
+        "completed": false
+    },
+    {
+        "title": "Eat Dosa",
+        "deadline": "2025-10-24T09:43",
+        "priority": "High",
+        "completed": false
+    }
+]
