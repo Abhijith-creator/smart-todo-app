@@ -1,4 +1,15 @@
-# 🧠 Smart To-Do App (Flask + Python)
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=28&duration=4000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=550&lines=🧠+Smart+To-Do+App;Flask+%2B+Python+%2B+Notifications;Task+Management+Made+Simple!" alt="Typing SVG" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Flask-Framework-000000?logo=flask&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Scheduler-Schedule-9333EA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Notifications-Plyer-38BDF8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UI-Custom_CSS-EC4899?style=for-the-badge" />
+</p>
+
+
 
 A modern web-based to-do list app built with **Flask**, **Python**, and **schedule** — featuring task management, deadlines, priority levels, and desktop notifications.
 
