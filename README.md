@@ -1,26 +1,44 @@
-# Smart To-Do App with Flask GUI
+# 🧠 Smart To-Do App (Flask + Python)
 
-A Python web-based to-do list app with task management, priority levels, and optional desktop notifications.
+A modern web-based to-do list app built with **Flask**, **Python**, and **schedule** — featuring task management, deadlines, priority levels, and desktop notifications.
 
-## Features
-- Add, Update, Delete tasks
-- Mark tasks completed
-- Task attributes: Title, Deadline, Priority, Completion status
-- Priority-based color coding (Red=High, Orange=Medium, Green=Low)
-- JSON-based storage
-- Optional desktop notifications with `plyer`
-- Web interface using Flask
-- Cross-platform
+## ✨ Features
+- 📝 Add, Update, Delete tasks
+- ✅ Mark tasks completed
+- 🕒 Set deadlines with reminders (10 min before)
+- 🎯 Priority levels: High / Medium / Low (color-coded)
+- 💻 Beautiful Flask web GUI
+- 🔔 Desktop notifications via `plyer`
+- 💾 JSON-based local storage (no database setup required)
 
-## Installation
-1. Clone the repo
+## 🛠️ Tech Stack
+- **Backend:** Python (Flask)
+- **Frontend:** HTML, CSS (Custom Responsive Design)
+- **Scheduler:** schedule + threading
+- **Notifications:** plyer
+
+## 🚀 Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/smart_todo_app.git
+   cd smart_todo_app
+   ```
 2. Install dependencies:
-pip install -r requirements.txt
-3. Run the Flask app:
-4. Open browser at `http://127.0.0.1:5000/`
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Start the app:
+    ```bash
+    python app.py
+    ```
+4. Open in your browser:
+    ```bash
+    [text](http://127.0.0.1:5000)
+    ```
 
-## Future Improvements
-- Integrate scheduler for live desktop notifications while web app runs
-- Recurring tasks
-- Export tasks to CSV
-- User authentication
+## 🧩 Requirements
+- Flask
+- schedule
+- plyer
+
