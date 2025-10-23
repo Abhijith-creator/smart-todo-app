@@ -6,21 +6,15 @@
         "completed": true
     },
     {
-        "title": "Reading books",
+        "title": "Read 10 Pages",
         "deadline": "2025-10-22T19:28",
         "priority": "Medium",
-        "completed": true
-    },
-    {
-        "title": "Drink Water",
-        "deadline": "2025-10-22T19:40",
-        "priority": "Low",
         "completed": false
     },
     {
-        "title": "Eat Dosa",
-        "deadline": "2025-10-24T09:43",
-        "priority": "High",
+        "title": "Drink Water",
+        "deadline": "2025-10-23T19:40",
+        "priority": "Low",
         "completed": false
     }
 ]
