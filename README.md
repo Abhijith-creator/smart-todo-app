@@ -42,3 +42,7 @@ A modern web-based to-do list app built with **Flask**, **Python**, and **schedu
 - schedule
 - plyer
 
+## 📜 License
+
+MIT License © 2025 Abhijith Anbalagan
+
