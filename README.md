@@ -34,7 +34,7 @@ A modern web-based to-do list app built with **Flask**, **Python**, and **schedu
     ```
 4. Open in your browser:
     ```bash
-    [text](http://127.0.0.1:5000)
+   http://127.0.0.1:5000
     ```
 
 ## 🧩 Requirements
